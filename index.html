@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Program Kasir Sederhana</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Program Kasir Sederhana</h1>
+      <div class="item-list">
+        <h2>Daftar Barang</h2>
+        <ul id="items"></ul>
+      </div>
+      <div class="cart">
+        <h2>Keranjang Belanja</h2>
+        <ul id="cart"></ul>
+        <p>Total : <span id="total">Rp 0,00</span></p>
+        <button onclick="calculateChange()">Bayar</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
